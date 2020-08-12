@@ -13,7 +13,7 @@ Here are the steps I took,
 2. Derived their Class.forName string `'org.postgresql.Driver'` from their [documentation](https://jdbc.postgresql.org/documentation/documentation.html).
 3. There are few `ENVVAR` which needs to be set:
     * the environment variable - `CLASSPATH` for driver **.jar** file in *IFS*.
-    * setting `STDIN`, `STDOUT`, `STDERR` to catch Java exceptions, also call `CHEKSTDIO` program to set these open [*More details here*](https://www.ibm.com/developerworks/rational/cafe/docBodyAttachments/2681-102-2-7220/Troubleshooting_RPG_Calls_To_Java_v2.html).
+    * setting `STDIN`, `STDOUT`, `STDERR` to catch Java exceptions, also call `CHECKSTDIO` program to set these open [*More details here*](https://www.ibm.com/developerworks/rational/cafe/docBodyAttachments/2681-102-2-7220/Troubleshooting_RPG_Calls_To_Java_v2.html).
 4. `RPGLE` to connect and fetch the data from that server. 
 5. Compiled and tested the connection. So *simple!*
 </p>
